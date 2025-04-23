@@ -1,0 +1,69 @@
+* {
+    background-color: #FBE7C6;
+}
+
+.container-principal {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.lista-input {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    margin-right: 10px;
+    height: 3vh;
+}
+
+.lista-input:focus {
+    border: 2px solid #FFAEBC;    
+}
+
+.btn-adicionar-tarefa,
+.btn-remover-tarefa {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.btn-adicionar-tarefa {
+    background-color: #FFAEBC;
+    border-color: #FFAEBC;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.btn-adicionar-tarefa:hover {
+    background-color: #e4909e;    
+}
+
+.btn-remover-tarefa {
+    background-color: #FFAEBC;
+    border-color: #FFAEBC;
+    border-radius: 50%;
+}
+
+.btn-remover-tarefa .btn-remover-tarefa__icon {
+    background-color: transparent;
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn-remover-tarefa:hover {
+    background-color: #e4909e;      
+}
+
+.lista-tarefas {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-tarefas .lista-tarefas__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 4px solid #FFAEBC;
+}
