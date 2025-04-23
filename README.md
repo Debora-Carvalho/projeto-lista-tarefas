@@ -1,6 +1,6 @@
 # Projeto - Lista de tarefas
 
-Projeto simples desenvolvido em React.js que permita aos usuários adicionar e remover tarefas de uma lista.
+Projeto simples desenvolvido em React.js que permite aos usuários adicionar e remover tarefas de uma lista.
 
 
 ## Funcionalidades
