@@ -37,6 +37,7 @@
     border-color: #A5B68D;
     border-radius: 20px;
     color: #fff;
+    cursor: pointer;
 }
 
 .btn-adicionar-tarefa:hover {
@@ -47,17 +48,25 @@
     background: none;
     border: none;
     border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .btn-remover-tarefa .btn-remover-tarefa__icon {
     background-color: transparent;
     font-size: 1.8rem;
     color: #b96f4a;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .btn-remover-tarefa:hover {
-    background-color: #b96f4a;      
+    background-color: #b96f4a;     
 }
+
+.btn-remover-tarefa .btn-remover-tarefa__icon:hover {
+    color: #ECDFCC; 
+} 
 
 .lista-tarefas {
     list-style: none;
