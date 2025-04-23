@@ -1,5 +1,5 @@
 * {
-    background-color: #FBE7C6;
+    background-color: #ECDFCC;
 }
 
 .container-principal {
@@ -8,17 +8,22 @@
     padding: 20px;
 }
 
-.lista-input {
-    background-color: #fff;
-    border: none;
-    border-radius: 20px;
-    padding: 8px;
-    margin-right: 10px;
-    height: 3vh;
+.titulo-principal {
+    color: #2C3930;
 }
 
-.lista-input:focus {
-    border: 2px solid #FFAEBC;    
+.container-lista-input {
+    margin-bottom: 2rem;
+}
+
+.lista-input {
+    background-color: #FCFAEE;
+    border: none;
+    border-radius: 20px;
+    width: 10vw;
+    padding: 10px 15px;
+    margin-right: 10px;
+    height: 2vh;
 }
 
 .btn-adicionar-tarefa,
@@ -28,30 +33,30 @@
 }
 
 .btn-adicionar-tarefa {
-    background-color: #FFAEBC;
-    border-color: #FFAEBC;
+    background-color: #A5B68D;
+    border-color: #A5B68D;
     border-radius: 20px;
     color: #fff;
 }
 
 .btn-adicionar-tarefa:hover {
-    background-color: #e4909e;    
+    background-color: #7d8b68;    
 }
 
 .btn-remover-tarefa {
-    background-color: #FFAEBC;
-    border-color: #FFAEBC;
+    background: none;
+    border: none;
     border-radius: 50%;
 }
 
 .btn-remover-tarefa .btn-remover-tarefa__icon {
     background-color: transparent;
-    font-size: 20px;
-    color: #fff;
+    font-size: 1.8rem;
+    color: #b96f4a;
 }
 
 .btn-remover-tarefa:hover {
-    background-color: #e4909e;      
+    background-color: #b96f4a;      
 }
 
 .lista-tarefas {
@@ -63,7 +68,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #FCFAEE;
+    color: #2C3930;
     margin-bottom: 10px;
     padding: 10px;
-    border-left: 4px solid #FFAEBC;
+    border-left: 5px solid #A5B68D;
 }

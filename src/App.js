@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { RiDeleteBin2Fill } from "react-icons/ri";
+import { MdDelete } from "react-icons/md";
 
 function App() {
     const [tarefas, setTarefas] = useState([]);
@@ -37,7 +37,7 @@ function App() {
                     <li className='lista-tarefas__item' key={tarefa.id}>
                         {tarefa.texto}
                         <button className='btn-remover-tarefa' onClick={() => removerTarefa(tarefa.id)}>
-                            <RiDeleteBin2Fill className='btn-remover-tarefa__icon' />
+                            <MdDelete className='btn-remover-tarefa__icon' />
                         </button>
                     </li>
                 ))}
